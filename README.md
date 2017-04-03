@@ -6,7 +6,7 @@ Built using Quintus:
 http://www.html5quintus.com/
 
 Check it out here:
-https://jgl2832.github.io/Sharkwhirl/
+https://tinyhazard.github.io/sharkwhirld/
 
 Created by Jake Levine
 https://github.com/jgl2832
