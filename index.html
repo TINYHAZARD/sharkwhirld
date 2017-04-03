@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src='scripts/quintus-all.js'></script>
+		<style type='text/css'>
+			body {
+				background-color: #000000;
+			}
+
+			.btnContainer {
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body style="color:#FFFFFF">
+		<div>
+			<canvas id='myGame' width='800' height='600'></canvas>
+			<script src='scripts/runner.js'></script>
+		</div>
+		<div id="downloadLink" style="text-align:center; display:none">
+			<h3><a download target="_blank" href="https://www.youtube.com/watch?v=UcnPZLjhn4Y&feature=youtu.be">CONGRATULATIONS YOU WIN, LEL</a></h3>
+		</div>
+		<div id="invincibleModeLink" style="margin:15px; text-align:center;">
+			<h3>
+				<a href="/?invincible=true">
+					tired of dying? play on invincible mode
+				</a>
+			</h3>
+		</div>
+		<script>
+			if (window.location.search === '?invincible=true') {
+				var link = document.getElementById('invincibleModeLink');
+				link.style.display = 'none';
+			}
+		</script>
+	</body>
+</html>
