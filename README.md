@@ -9,6 +9,7 @@ Check it out here:
 https://jgl2832.github.io/Sharkwhirl/
 
 Created by Jake Levine
+https://github.com/jgl2832
 
 Music by Tiny Hazard
 
